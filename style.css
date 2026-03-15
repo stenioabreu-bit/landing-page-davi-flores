@@ -110,7 +110,7 @@ body {
 }
 
 .btn-whatsapp {
-    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    background: linear-gradient(135deg, #A09BE7 0%, #A09BE7 100%);
     color: white;
     padding: 12px 28px;
     border-radius: 30px;
@@ -120,13 +120,13 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+    box-shadow: 0 4px 15px #FFEECF;
     font-family: 'Jost', sans-serif;
 }
 
 .btn-whatsapp:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 25px rgba(37, 211, 102, 0.4);
+    box-shadow: 0 6px 25px #A09BE7;
 }
 
 /* Hero Section */
