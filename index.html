@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Flores - Flores que Contam Histórias</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Davi Flores">
+            </div>
+            <nav class="nav">
+                <a href="#servicos">Serviços</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#sobre">Sobre Nós</a>
+                <a href="#promocoes">Promoções</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <div class="header-actions">
+                <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es" class="btn-whatsapp" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Flores que Contam Histórias</h1>
+                <p>15 anos de experiência em coroas de flores naturais e arranjos especiais</p>
+                <div class="hero-buttons">
+                    <a href="#produtos" class="btn-primary">Ver Produtos</a>
+                    <a href="#contato" class="btn-secondary">Nossos Contatos</a>
+                </div>
+                <div class="hero-contacts">
+                    <p class="hide-mobile">📞 (11) 97424-8538 | (11) 91796-9636</p>
+                    <p class="hide-mobile">📍 R. Cláudio Rossi, 1002 - Jardim da Gloria, São Paulo - SP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="services" id="servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-regular fa-clock"></i></div>
+                    <h3>Atendimento 24 Horas</h3>
+                    <p>Todos os dias, estamos prontos para lhe atender a qualquer horário.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-mobile"></i></div>
+                    <h3>Atendimento Online</h3>
+                    <p>Entre em contato conosco a qualquer momento, utilize nossos contatos no site.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="ph ph-flower-tulip"></i></div>
+                    <h3>Produtos Sob Medida</h3>
+                    <p>Produtos sob encomenda feitos com qualidade para atender suas necessidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos em Destaque -->
+    <section class="products" id="produtos">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="todos">Todos (32)</button>
+                <button class="filter-btn" data-filter="arranjos">Arranjos (19)</button>
+                <button class="filter-btn" data-filter="vasos">Vasos (7)</button>
+                <button class="filter-btn" data-filter="coroas">Coroas (6)</button>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card" data-category="arranjos">
+                    <div class="product-image" style="background-image: url('https://plus.unsplash.com/premium_photo-1676490700212-5b1627ddacfd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+                    <h3>Arranjo de Girassol</h3>
+                    <p class="product-price">R$ 100,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Arranjo%20de%20Girassol%20-%20R%24100%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="arranjos">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1678386505801-f02fbb3d9001?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fENlc3RhJTIwZGUlMjBGbG9yZXMlMjBkbyUyMENhbXBvfGVufDB8fDB8fHww');"></div>
+                    <h3>Cesta de Flores do Campo</h3>
+                    <p class="product-desc">Gerberas branquinha tango</p>
+                    <p class="product-price">R$ 100,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Cesta%20de%20Flores%20do%20Campo%20-%20R%24100%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="arranjos">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1761422907951-2c30facbd3ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QXJyYW5qbyUyMGNvbSUyMEwlQzMlQURyaW9zfGVufDB8fDB8fHww');"></div>
+                    <h3>Arranjo com Lírios</h3>
+                    <p class="product-desc">Astromélias e eucalipto</p>
+                    <p class="product-price">R$ 380,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Arranjo%20com%20L%C3%ADrios%2C%20Astrom%C3%A9lias%20e%20Eucalipto%20-%20R%24380%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="arranjos">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1685395076394-8f5c989a5855?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QXJyYW5qbyUyMEwlQzMlQURyaW8lMjBNaW5pJTIwUm9zYXxlbnwwfHwwfHx8MA%3D%3D');"></div>
+                    <h3>Arranjo Lírio Mini Rosa</h3>
+                    <p class="product-desc">Eucalipto no vidro</p>
+                    <p class="product-price">R$ 220,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Arranjo%20L%C3%ADrio%20Mini%20Rosa%20-%20R%24220%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="arranjos">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1606101083393-bded314215cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXJyYW5qbyUyMGRlJTIwZmxvcmVzfGVufDB8fDB8fHww');"></div>
+                    <h3>Arranjo Premium</h3>
+                    <p class="product-desc">Hortênsia, boca de leão, lírio e liziantos</p>
+                    <p class="product-price">R$ 400,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Arranjo%20Premium%20-%20R%24400%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="arranjos">
+                    <div class="product-image" style="background-image: url('https://plus.unsplash.com/premium_photo-1723867308829-3a3fe1518fa8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVxdWV0JTIwY29tJTIwcm9zYXMlMjBicmFuY2FzfGVufDB8fDB8fHww');"></div>
+                    <h3>Buquê com 12 Rosas Brancas</h3>
+                    <p class="product-price">R$ 160,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Buqu%C3%AA%20com%2012%20Rosas%20Brancas%20-%20R%24160%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="arranjos">
+                    <div class="product-image" style="background-image: url('https://media.istockphoto.com/id/2201901043/pt/foto/red-roses-stock-photo.webp?a=1&b=1&s=612x612&w=0&k=20&c=3IZa8kvPoHqILx-Ad31vZdkZFdo7cgC1GRPMdOlF_lI=');"></div>
+                    <h3>Buquê com 24 Rosas Colombianas</h3>
+                    <p class="product-price">R$ 460,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Buqu%C3%AA%20com%2024%20Rosas%20Colombianas%20-%20R%24460%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="arranjos">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1660758013365-26fa9495ab8d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1cXVldCUyMGNvbSUyMHJvc2FzJTIwYW1hcmVsYXN8ZW58MHx8MHx8fDA%3D');"></div>
+                    <h3>Buquê com 12 Rosas Amarelas</h3>
+                    <p class="product-price">R$ 160,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Buqu%C3%AA%20com%2012%20Rosas%20Amarelas%20-%20R%24160%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="arranjos">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1646565810050-7001bf877f98?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YnVxdWV0JTIwY29tJTIwdHVsaXBhc3xlbnwwfHwwfHx8MA%3D%3D');"></div>
+                    <h3>Buquê com 12 Tulipas</h3>
+                    <p class="product-price">R$ 200,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Buqu%C3%AA%20com%2012%20Tulipas%20-%20R%24200%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="arranjos">
+                    <div class="product-image" style="background-image: url('https://media.istockphoto.com/id/2184535797/pt/foto/womans-hand-preparing-bouquet-in-flower-shop.webp?a=1&b=1&s=612x612&w=0&k=20&c=643ggUYaMIHJcZzXzo6Z38Owzq9uCyq6ZmEENDQb0IQ=');"></div>
+                    <h3>Arranjo com Uma Rosa Colombiana</h3>
+                    <p class="product-price">R$ 50,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Arranjo%20com%20uma%20Rosa%20Colombiana%20-%20R%2450%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="vasos">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1621603145032-11987e6ead45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TUlOSSUyME9SUVVJREVBU3xlbnwwfHwwfHx8MA%3D%3D');"></div>
+                    <h3>Mini Orquídeas</h3>
+                    <p class="product-price">R$ 350,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Mini%20Orqu%C3%ADdeas%20-%20R%24350%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="vasos">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1589268195569-0c2f911434f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b3JxdWlkZWElMjBwaW5rJTIwbm8lMjB2aWRyb3xlbnwwfHwwfHx8MA%3D%3D');"></div>
+                    <h3>Orquídea Pink no Vidro</h3>
+                    <p class="product-price">R$ 250,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Orqu%C3%ADdea%20Pink%20no%20Vidro%20-%20R%24250%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="vasos">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1770361515353-59ea776c66de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG9ycXVpZGVhJTIwbm8lMjB2aWRyb3xlbnwwfHwwfHx8MA%3D%3D');"></div>
+                    <h3>Mini Orquídea no Vidro</h3>
+                    <p class="product-price">R$ 250,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Mini%20Orqu%C3%ADdea%20no%20Vidro%20-%20R%24250%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="vasos">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1583846712268-a77d97b7fd68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG9ycXVpZGVhfGVufDB8fDB8fHww');"></div>
+                    <h3>Orquídea na Taça</h3>
+                    <p class="product-desc">Duas rosas colombianas</p>
+                    <p class="product-price">R$ 450,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Orqu%C3%ADdea%20na%20Ta%C3%A7a%20-%20R%24450%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="vasos">
+                    <div class="product-image" style="background-image: url('https://plus.unsplash.com/premium_photo-1677665881484-eda66d311385?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8T3JxdSVDMyVBRGRlYSUyMEZhbGVuJUMzJUIzcG9saXMlMjBCcmFuY2F8ZW58MHx8MHx8fDA%3D');"></div>
+                    <h3>Orquídea Falenópolis Branca</h3>
+                    <p class="product-desc">No vidro</p>
+                    <p class="product-price">R$ 230,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Orqu%C3%ADdea%20Falen%C3%B3polis%20Branca%20-%20R%24230%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="coroas">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=600&q=80');"></div>
+                    <h3>Conjunto Luxo</h3>
+                    <p class="product-desc">2 coroas, 2 tufos, 1 cruz - Girassol, gérbera, antúrio</p>
+                    <p class="product-price">R$ 1.000,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Conjunto%20Luxo%20-%20R%241.000%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="coroas">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1602285415607-faa4007a0bca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvcm9hJTIwZGUlMjBmbG9yZXN8ZW58MHx8MHx8fDA%3D');"></div>
+                    <h3>Coroa de Flores Premium</h3>
+                    <p class="product-desc">Rosa, margarida, antúrio, gérbera - 1,20 x 1,00 M</p>
+                    <p class="product-price">R$ 750,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Coroa%20de%20Flores%20Premium%20-%20R%24750%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+
+                <div class="product-card" data-category="coroas">
+                    <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1487070183336-b863922373d4?w=600&q=80');"></div>
+                    <h3>Coroa Tradicional</h3>
+                    <p class="product-desc">Gérbera, antúrio, egipsomfila, lírio - 1,00 x 1,00 M</p>
+                    <p class="product-price">R$ 400,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Coroa%20Tradicional%20-%20R%24400%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="coroas">
+                    <div class="product-image" style="background-image: url('https://divinoencantocestas.com.br/wp-content/uploads/2024/08/AnyConv.com__Design-sem-nome-28.webp');"></div>
+                    <h3>Coroa com Girassóis</h3>
+                    <p class="product-desc">Girassol, gérbera, lírio - 1,20 x 1,00 M</p>
+                    <p class="product-price">R$ 700,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Coroa%20com%20Girass%C3%B3is%20-%20R%24700%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+
+                <div class="product-card" data-category="coroas">
+                    <div class="product-image" style="background-image: url('https://www.eufloriaflores.com.br/image/cache/catalog/produtos/coroas/CR-CDL-0002-01-762x762.jpg');"></div>
+                    <h3>Coroa Flores do Campo</h3>
+                    <p class="product-desc">Flores coloridas - 1,00 x 1,00 M</p>
+                    <p class="product-price">R$ 300,00</p>
+                    <a href="https://api.whatsapp.com/send?phone=5511974248538&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20Coroa%20Flores%20do%20Campo%20-%20R%24300%2C00" class="btn-whatsapp-product" target="_blank">Entre em Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="about-content">
+                <h2>Sobre Nós</h2>
+                <p>Davi Flores é uma empresa que trabalha há 15 anos na produção de Coroa de Flores Naturais e prioriza a qualidade dos produtos oferecidos.</p>
+                
+                <div class="about-features">
+                    <div class="feature">
+                        <h4><i class="ph ph-flower-lotus"></i> Qualidade</h4>
+                        <p>Possuímos uma grande variedade de modelos e flores. Oferecemos agilidade, disponibilidade e confiança aos nossos clientes.</p>
+                    </div>
+                    <div class="feature">
+                        <h4><i class="ph ph-shopping-cart"></i> Praticidade na compra</h4>
+                        <p>A facilidade em conhecer todos nossos produtos e modelos e adquirir de forma integralmente online, no local e no momento em que preferir.</p>
+                    </div>
+                    <div class="feature">
+                        <h4><i class="ph ph-graph"></i> Variedade de produtos</h4>
+                        <p>Flores, arranjos, coroas de flores de diversos tipos. Oferecemos grande variedade de produtos para atender diversos gostos e ocasiões.</p>
+                    </div>
+                </div>
+
+                <h3 class="faq-title">Perguntas Frequentes</h3>
+                
+                <div class="faq-grid">
+                    <div class="faq-card">
+                        <div class="faq-question">
+                            <span>🌹</span>
+                            <h4>Qual a diferença entre arranjos e buquês?</h4>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Arranjos são composições florais montadas em bases fixas como vasos, cestas ou espumas florais, ideais para decoração de ambientes. Já os buquês são flores amarradas juntas, perfeitos para presentear e carregar, muito usados em casamentos e ocasiões especiais.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-card">
+                        <div class="faq-question">
+                            <span>💐</span>
+                            <h4>Quanto tempo duram as flores naturais?</h4>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>A durabilidade varia conforme o tipo de flor e os cuidados. Rosas duram de 5 a 7 dias, lírios de 7 a 10 dias, e orquídeas podem durar até 3 semanas. Mantenha em local fresco, troque a água diariamente e corte as hastes em diagonal para prolongar a vida das flores.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-card">
+                        <div class="faq-question">
+                            <span>⚰️</span>
+                            <h4>Como escolher coroas de flores para funerais?</h4>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Para funerais, oferecemos coroas em diversos tamanhos (P, M, G) com flores tradicionais como lírios brancos, rosas, crisântemos e gérberas. Considere o relacionamento com o falecido e o local da cerimônia. Entregamos em até 3 horas e oferecemos atendimento 24h para momentos de urgência.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-card">
+                        <div class="faq-question">
+                            <span>💒</span>
+                            <h4>Vocês fazem arranjos para casamentos?</h4>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim! Criamos buquês de noiva personalizados, arranjos para cerimônia e recepção, corsages e decoração floral completa. Trabalhamos com rosas, lírios, orquídeas, tulipas e flores do campo. Entre em contato para agendar uma consulta e criar o projeto floral perfeito para seu grande dia.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-card">
+                        <div class="faq-question">
+                            <span>🚚</span>
+                            <h4>Qual o prazo de entrega?</h4>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Realizamos entregas expressas em até 3 horas para a região de São Paulo. Para outras localidades, o prazo varia conforme a distância. Atendemos 24 horas por dia, todos os dias da semana, incluindo finais de semana e feriados para emergências.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-card">
+                        <div class="faq-question">
+                            <span>🎨</span>
+                            <h4>Posso personalizar meu arranjo?</h4>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutamente! Oferecemos produtos sob medida feitos com qualidade para atender suas necessidades específicas. Você pode escolher as flores, cores, tamanho e estilo do arranjo. Entre em contato pelo WhatsApp para discutir suas preferências e criar algo único.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Davi Flores</h4>
+                    <p>15 anos de experiência em flores naturais</p>
+                    <a href="https://www.instagram.com/davifloricultura/" target="_blank">
+                        <i class="ph ph-instagram-logo"></i> @davifloricultura
+                    </a>
+                </div>
+                <div class="footer-col">
+                    <h4>Links</h4>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#produtos">Produtos</a>
+                    <a href="#sobre">Sobre Nós</a>
+                    <a href="#promocoes">Promoções</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <p><i class="ph ph-phone"></i> (11) 97424-8538</p>
+                    <p><i class="ph ph-phone"></i> (11) 91796-9636</p>
+                    <p><i class="ph ph-envelope-open"></i> contato@daviflores.com.br</p>
+                    <p><i class="ph ph-browsers"></i> www.daviflores.com.br</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Localização</h4>
+                    <p>R. Cláudio Rossi, 1002</p>
+                    <p>Jardim da Gloria</p>
+                    <p>São Paulo - SP</p>
+                    <p>CEP: 01547-000</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Davi Flores. Todos os direitos reservados.</p>
+                <p>Site desenvolvido por <a href="https://www.instagram.com/owlin.agency/" target="_blank" class="owlin-link">OWLIN</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
