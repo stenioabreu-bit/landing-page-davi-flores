@@ -129,6 +129,13 @@ body {
     box-shadow: 0 6px 25px #A09BE7;
 }
 
+.destaque-titulo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.3em;
+    color: var(--accent-purple);
+    display: block;
+}
+
 /* Hero Section */
 .hero {
     min-height: 90vh;
